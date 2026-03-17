@@ -309,7 +309,6 @@ main {
 
 /* section 3 (article-section) */
 .article-section {
-  padding: 4rem 0;
   gap: 15px;
   background-color: var(--neutral-gray-50);
   display: grid;
@@ -384,7 +383,7 @@ footer nav {
   background-color: var(--primary-blue-950);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-rows: 1fr;
   justify-items: center;
   text-align: center;
   color: var(--neutral-gray-50);
@@ -592,6 +591,8 @@ footer nav div {
     justify-content: center;
     align-items: center;
     justify-self: flex-end;
+    grid-column: 2;
+    grid-row: 1;
   }
 
   .footer-nav-links {
@@ -622,11 +623,6 @@ footer nav div {
   .footer-nav-list li,
   .footer-nav-list-2 li {
     margin-right: 40px;
-  }
-
-  .footer-request-invite {
-    grid-column: 2;
-    grid-row: 1;
   }
 
   .footer-request-invite li {

@@ -39,8 +39,8 @@ This project focuses on building a responsive landing page using modern layout t
 
 ## Links
 
-- Solution URL:  
-- Live Site URL:  
+- Solution URL:  https://www.frontendmentor.io/solutions/digitalbank-landing-page-mobile-first-3xbnkuyBtU
+- Live Site URL:  https://rajesh-medudula.github.io/FM-digitalbank-landing-page/
 
 ---
 
