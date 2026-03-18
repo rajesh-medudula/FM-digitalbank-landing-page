@@ -182,7 +182,7 @@ main {
 .hero-section {
   width: 100%;
   min-height: 100vh;
-  background-image: url("images/bg-intro-mobile.svg");
+  background-image: url(../images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center -60px;
@@ -536,7 +536,7 @@ footer nav div {
 @media (min-width: 1024px) {
   .hero-section {
     flex-direction: row;
-    background-image: url("images/bg-intro-desktop.svg");
+    background-image: url(../images/bg-intro-desktop.svg);
     padding: 4rem 0;
    
     background-position: 840px -410px;
